@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 import 'package:islami/home/hom_page.dart';
+import 'package:islami/sebha/view/sebha_view.dart';
 import 'package:islami/ui/app_asset.dart';
 
 class IntroScreen extends StatelessWidget {
@@ -89,7 +90,7 @@ class IntroScreen extends StatelessWidget {
       onDone: () {
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (_) => const HomePage()),
+          MaterialPageRoute(builder: (_) => const TasbeehScreen()),
         );
       },
 
